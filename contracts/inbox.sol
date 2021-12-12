@@ -14,4 +14,8 @@ contract Inbox {
         message = newMessage;
     }
 
+    function eraseMessage() public {
+        message = 'No Message';
+    }
+
 }
